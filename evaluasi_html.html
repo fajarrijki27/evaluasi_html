@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluasi Html Dasar</title>
+</head>
+<body>
+    <hr>
+    <h1>Selamat Datang di Evaluasi HTML</h1>
+    <P>Ini merupakan evaluasi html dasar</P>
+    <hr>
+    <h2>Pengelolaan Teks</h2>
+    <p><strong>Programming</strong></p>
+    <p><em> Program merupakan suatu urutan logika dengan input dan output tertentu. Program juga dapat berupa kumpulan 
+        perintah agar komputer dapat berfungsi secara optimal sesuai dengan kemauan. Program yang disatukan dengan 
+        sistem disebut aplikasi, seperti aplikasi web, maupun android.</em>.</p>
+    <blockquote><a href="https://en.wikipedia.org/wiki/Elon_Musk">Elon Musk wikipedia</a></blockquote>
+    <hr>
+    <h2>Hyperlink dan gambar</h2>
+    <a href="https://chatgpt.com/">ChatGpt</a>
+    <a href=https://en.wikipedia.org/wiki/File:The_Prime_Minister,_Shri_Narendra_Modi_meeting_Mr._Elon_Musk_in_New_York,_USA_on_June_20,_2023_(2)_(cropped).jpg>
+        <img src="" alt="gambar elon musk"></a>
+    <hr>
+    <h2>Membuat Daftar</h2>
+    <ol>
+        <li>ingin punya perusahaan sendiri</li>
+        <li>ingin bermanfaat bagi orang lain</li>
+        <li>ingin menunaikan nadzar saya</li>
+    </ol>
+    <ul>
+        <li>motoran</li>
+        <li>main game</li>
+        <li>futsal</li>
+    </ul>
+    <hr>
+    <h2>tabel data</h2>
+    <table border="1" cellspacing="0" cellpadding="5">
+    <tr>
+        <td>Nama</td>
+        <td>FAJAR RIZQI FAUZAN</td>
+    </tr>
+    <tr>
+        <td>Umur</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <td>Kota</td>
+        <td>BANDUNG</td>
+    </tr>
+</table>
+    <hr>
+    <form action="/submit" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" id="nama" name="nama">
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+    
+        <label for="gender">Jenis Kelamin:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Laki-laki</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Perempuan</label><br><br>
+
+        <select name="kota" id="kota">
+            <option value="BANDUNG">BANDUNG</option>
+            <option value="JAKARTA">JAKARTA</option>
+            <option value="MALANG">MALANG</option>
+        </select>
+
+        <input type="checkbox" name="agreement"> i agree</input>
+        <br>
+        <label for="pesan">Pesan:</label>
+    </br>
+        <br>
+        <textarea id="pesan" name="pesan"></textarea>
+    </br>
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
